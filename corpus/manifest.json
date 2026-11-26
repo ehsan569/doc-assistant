@@ -1,0 +1,142 @@
+[
+  {
+    "file": "clients__python__overview.md",
+    "page": "clients/python/overview",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/clients/python/overview.md",
+    "web_url": "https://duckdb.org/docs/stable/clients/python/overview",
+    "characters": 11537
+  },
+  {
+    "file": "clients__python__data_ingestion.md",
+    "page": "clients/python/data_ingestion",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/clients/python/data_ingestion.md",
+    "web_url": "https://duckdb.org/docs/stable/clients/python/data_ingestion",
+    "characters": 9525
+  },
+  {
+    "file": "configuration__overview.md",
+    "page": "configuration/overview",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/configuration/overview.md",
+    "web_url": "https://duckdb.org/docs/stable/configuration/overview",
+    "characters": 35965
+  },
+  {
+    "file": "data__csv__overview.md",
+    "page": "data/csv/overview",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/data/csv/overview.md",
+    "web_url": "https://duckdb.org/docs/stable/data/csv/overview",
+    "characters": 16085
+  },
+  {
+    "file": "data__csv__auto_detection.md",
+    "page": "data/csv/auto_detection",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/data/csv/auto_detection.md",
+    "web_url": "https://duckdb.org/docs/stable/data/csv/auto_detection",
+    "characters": 13544
+  },
+  {
+    "file": "data__csv__tips.md",
+    "page": "data/csv/tips",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/data/csv/tips.md",
+    "web_url": "https://duckdb.org/docs/stable/data/csv/tips",
+    "characters": 2437
+  },
+  {
+    "file": "data__json__overview.md",
+    "page": "data/json/overview",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/data/json/overview.md",
+    "web_url": "https://duckdb.org/docs/stable/data/json/overview",
+    "characters": 4578
+  },
+  {
+    "file": "data__parquet__overview.md",
+    "page": "data/parquet/overview",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/data/parquet/overview.md",
+    "web_url": "https://duckdb.org/docs/stable/data/parquet/overview",
+    "characters": 16028
+  },
+  {
+    "file": "data__parquet__tips.md",
+    "page": "data/parquet/tips",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/data/parquet/tips.md",
+    "web_url": "https://duckdb.org/docs/stable/data/parquet/tips",
+    "characters": 4133
+  },
+  {
+    "file": "data__partitioning__hive_partitioning.md",
+    "page": "data/partitioning/hive_partitioning",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/data/partitioning/hive_partitioning.md",
+    "web_url": "https://duckdb.org/docs/stable/data/partitioning/hive_partitioning",
+    "characters": 4584
+  },
+  {
+    "file": "guides__performance__how_to_tune_workloads.md",
+    "page": "guides/performance/how_to_tune_workloads",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/guides/performance/how_to_tune_workloads.md",
+    "web_url": "https://duckdb.org/docs/stable/guides/performance/how_to_tune_workloads",
+    "characters": 15367
+  },
+  {
+    "file": "guides__performance__indexing.md",
+    "page": "guides/performance/indexing",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/guides/performance/indexing.md",
+    "web_url": "https://duckdb.org/docs/stable/guides/performance/indexing",
+    "characters": 6316
+  },
+  {
+    "file": "guides__performance__join_operations.md",
+    "page": "guides/performance/join_operations",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/guides/performance/join_operations.md",
+    "web_url": "https://duckdb.org/docs/stable/guides/performance/join_operations",
+    "characters": 2684
+  },
+  {
+    "file": "guides__performance__oom.md",
+    "page": "guides/performance/oom",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/guides/performance/oom.md",
+    "web_url": "https://duckdb.org/docs/stable/guides/performance/oom",
+    "characters": 2342
+  },
+  {
+    "file": "guides__performance__file_formats.md",
+    "page": "guides/performance/file_formats",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/guides/performance/file_formats.md",
+    "web_url": "https://duckdb.org/docs/stable/guides/performance/file_formats",
+    "characters": 8964
+  },
+  {
+    "file": "guides__performance__import.md",
+    "page": "guides/performance/import",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/guides/performance/import.md",
+    "web_url": "https://duckdb.org/docs/stable/guides/performance/import",
+    "characters": 1745
+  },
+  {
+    "file": "operations_manual__limits.md",
+    "page": "operations_manual/limits",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/operations_manual/limits.md",
+    "web_url": "https://duckdb.org/docs/stable/operations_manual/limits",
+    "characters": 1347
+  },
+  {
+    "file": "sql__functions__window_functions.md",
+    "page": "sql/functions/window_functions",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/sql/functions/window_functions.md",
+    "web_url": "https://duckdb.org/docs/stable/sql/functions/window_functions",
+    "characters": 27322
+  },
+  {
+    "file": "sql__statements__copy.md",
+    "page": "sql/statements/copy",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/sql/statements/copy.md",
+    "web_url": "https://duckdb.org/docs/stable/sql/statements/copy",
+    "characters": 27195
+  },
+  {
+    "file": "sql__statements__attach.md",
+    "page": "sql/statements/attach",
+    "raw_url": "https://raw.githubusercontent.com/duckdb/duckdb-web/f32864d7570205e0863066c84e84bea87022df64/docs/2.0/sql/statements/attach.md",
+    "web_url": "https://duckdb.org/docs/stable/sql/statements/attach",
+    "characters": 17446
+  }
+]

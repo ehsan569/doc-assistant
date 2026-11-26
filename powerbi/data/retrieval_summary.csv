@@ -1,0 +1,3 @@
+retriever,strategy,n_answerable,page_hit_at_1,page_hit_at_3,page_hit_at_5,evidence_hit_at_1,evidence_hit_at_3,evidence_hit_at_5,mrr_page,config
+lexical,fixed,20,0.95,1.0,1.0,0.9,0.95,0.95,0.975,lexical / fixed
+lexical,headings,20,0.95,1.0,1.0,0.95,0.95,1.0,0.975,lexical / headings

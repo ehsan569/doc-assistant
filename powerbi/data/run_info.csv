@@ -1,0 +1,3 @@
+config,run_at,python,embedding_model,questions,chunking
+lexical/fixed,2026-11-26T19:01:07+00:00,3.13.18,,30,"1000 chars, 150 overlap"
+lexical/headings,2026-11-26T19:01:07+00:00,3.13.18,,30,"split at # ## ###, then max 1000 chars, 150 overlap, breadcrumb added to searched text"

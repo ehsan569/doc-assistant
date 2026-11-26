@@ -1,0 +1,31 @@
+question_id,question,answerable,qtype,topic,gold_pages,competes_with,notes
+q01,What is the default memory limit in DuckDB?,True,answerable,limits,operations_manual__limits.md; guides__performance__oom.md,configuration__overview.md,Stated in two pages; the config reference is a large distractor.
+q02,How many rows does DuckDB sample by default when detecting CSV column types?,True,answerable,csv,data__csv__auto_detection.md; data__csv__overview.md,data__csv__tips.md,"Number appears as 20,480 in one page and 20480 in a table in another."
+q03,How can I make the CSV sniffer read the whole file when detecting types?,True,answerable,csv,data__csv__tips.md; data__csv__auto_detection.md,data__csv__overview.md,Three CSV pages compete.
+q04,Which setting turns off the join order optimizer?,True,answerable,performance,guides__performance__join_operations.md,,
+q05,From how many tables in a join does DuckDB switch to approximate join ordering by default?,True,answerable,performance,guides__performance__join_operations.md,,Needs the exact number.
+q06,What is the default ROW_GROUP_SIZE when writing Parquet files?,True,answerable,parquet,data__parquet__tips.md; guides__performance__how_to_tune_workloads.md,data__parquet__overview.md; guides__performance__file_formats.md; sql__statements__copy.md,Parquet-related pages compete.
+q07,What are the two types of indexes in DuckDB?,True,answerable,performance,guides__performance__indexing.md,,
+q08,How much smaller was the storage size when the timestamp column was ordered in the microbenchmark?,True,answerable,performance,guides__performance__indexing.md,,Detail from a results table and the sentence under it.
+q09,In what order does DuckDB recommend importing data from other systems?,True,answerable,performance,guides__performance__import.md,guides__performance__file_formats.md,
+q10,How do I read a JSON file with custom column types?,True,answerable,json,data__json__overview.md,clients__python__data_ingestion.md,
+q11,Which Parquet writing option produces one file per thread?,True,answerable,parquet,data__parquet__tips.md,sql__statements__copy.md,
+q12,How do I read several Parquet files that have different columns?,True,answerable,parquet,data__parquet__tips.md,data__csv__tips.md,Same option appears on the CSV tips page; the right answer is the Parquet one.
+q13,How do I attach an encrypted database?,True,answerable,sql,sql__statements__attach.md,data__parquet__overview.md,
+q14,Which clause filters the results of a window function without needing a subquery?,True,answerable,sql,sql__functions__window_functions.md,,
+q15,How do I create a persistent database connection in the Python client?,True,answerable,python,clients__python__overview.md,clients__python__data_ingestion.md,
+q16,Can the COPY statement copy data between two tables?,True,answerable,sql,sql__statements__copy.md,,The answer is a limitation (no).
+q17,What should I do if DuckDB keeps getting killed by the operating system for using too much memory?,True,answerable,performance,guides__performance__oom.md,guides__performance__how_to_tune_workloads.md; operations_manual__limits.md,Phrased without the option names.
+q18,What is Hive partitioning?,True,answerable,partitioning,data__partitioning__hive_partitioning.md,guides__performance__file_formats.md; data__parquet__overview.md,
+q19,What is the ideal size range for an individual Parquet file?,True,answerable,parquet,guides__performance__file_formats.md,data__parquet__tips.md,
+q20,How can I speed up reading many small CSV files?,True,answerable,csv,guides__performance__file_formats.md,data__csv__tips.md; data__csv__auto_detection.md,"Answer lives on a performance page, while three CSV pages look more relevant."
+q21,How do I connect DuckDB to Snowflake?,False,unanswerable_offtopic,integrations,,,Not covered by the 20 pages.
+q22,How much does MotherDuck cost?,False,unanswerable_offtopic,commercial,,,Not covered.
+q23,How do I read an Excel file in DuckDB?,False,unanswerable_offtopic,file formats,,,"DuckDB does document this elsewhere, but not in these 20 pages. The assistant must answer from the provided pages only."
+q24,How do I schedule a DuckDB query to run automatically every night?,False,unanswerable_offtopic,operations,,,Not covered.
+q25,How do I back up a DuckDB database?,False,unanswerable_offtopic,operations,,,Not covered.
+q26,How do I stream data from Kafka into DuckDB?,False,unanswerable_offtopic,integrations,,,Not covered.
+q27,What is the maximum number of columns a table can have?,False,unanswerable_nearmiss,limits,,,"The limits page lists other limits but not this one. The config page has pivot_limit, a distractor."
+q28,Which DuckDB version first added support for Hive partitioning?,False,unanswerable_nearmiss,partitioning,,,The Hive page has no version history.
+q29,What key length is used when encrypting Parquet files?,False,unanswerable_nearmiss,parquet,,,"AES-256 is stated for database encryption on the ATTACH page, not for Parquet. Tests for mixing the two up."
+q30,What is the maximum number of tables allowed in a single join?,False,unanswerable_nearmiss,performance,,,"The join page covers when ordering becomes approximate, not a maximum."

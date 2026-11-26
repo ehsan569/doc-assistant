@@ -1,0 +1,16 @@
+{
+  "lexical/fixed": {
+    "run_at": "2026-11-26T19:01:07+00:00",
+    "python": "3.13.18",
+    "embedding_model": null,
+    "questions": 30,
+    "chunking": "1000 chars, 150 overlap"
+  },
+  "lexical/headings": {
+    "run_at": "2026-11-26T19:01:07+00:00",
+    "python": "3.13.18",
+    "embedding_model": null,
+    "questions": 30,
+    "chunking": "split at # ## ###, then max 1000 chars, 150 overlap, breadcrumb added to searched text"
+  }
+}

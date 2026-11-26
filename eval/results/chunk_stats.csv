@@ -1,0 +1,3 @@
+strategy,chunks,min_chars,mean_chars,max_chars,under_200_chars
+fixed,267,31,825.0,998,5
+headings,318,38,676.7,1000,24
